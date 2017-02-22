@@ -5,8 +5,6 @@ body {
   font-family: 'Helvetica', sans-serif;
 }
 
-}
-
 .container-fluid div {
   /*background-color: #333;*/
   border-left: 1px solid white;
@@ -27,26 +25,11 @@ body {
 	background-color: white;
 }
 
-ul {
-    list-style-type: none;
-    margin: 5;
-    padding: 5;
-    overflow: hidden;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
+#navlink {
     color: #21b6a8;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    color: #67192c;
+#navlink:hover {
+	color: #67192c;
 }
+
