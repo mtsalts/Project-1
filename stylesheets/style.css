@@ -26,10 +26,22 @@ body {
 }
 
 #navlink {
-    color: #21b6a8;
+    color: #000;
 }
 
 #navlink:hover {
-	color: #67192c;
+	color: #21b6a8;
 }
 
+.col-lg-6 {
+	margin-bottom: 10x;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: 20px solid rgba(0,0,0,1.00);
+	border-bottom: 20px solid rgba(0,0,0,1.00);
+}
+
+h2 {
+	color: #67192c;
+}
