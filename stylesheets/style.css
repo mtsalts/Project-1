@@ -45,3 +45,23 @@ body {
 h2 {
 	color: #67192c;
 }
+
+@media screen and (max-width: 1200px) {
+	.col-lg-12 {
+		margin-bottom: -20px;
+		padding: 5px;
+	}
+	h2 {
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		font-size: 28px;
+	}
+	h1 {
+		font-size: 36px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 12px;
+}
